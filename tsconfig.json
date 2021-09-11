@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // Onde o build vai ser gerado
+    "outDir": "./dist",
+    // Quando o typescript transpilar, vai transpilar para o commonjs (require, module.exports)
+    "module": "commonjs",
+    // Quando o typescript transpilar, vai transpilar para a versão ES2019
+    "target": "ES2019",
+    "esModuleInterop": true,
+    // Caso tenhamos arquivos de config .js ele permite
+    "allowJs": true,
+  }
+}
