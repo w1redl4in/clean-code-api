@@ -5,6 +5,7 @@
   "author": "Felipe <felipe1180@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^27.0.1",
     "@types/node": "^16.9.1",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "eslint": "^7.12.1",
@@ -14,7 +15,12 @@
     "eslint-plugin-promise": "^5.0.0",
     "git-commit-msg-linter": "^3.2.8",
     "husky": "^7.0.2",
+    "jest": "^27.1.1",
     "lint-staged": "^11.1.2",
+    "ts-jest": "^27.0.5",
     "typescript": "*"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
